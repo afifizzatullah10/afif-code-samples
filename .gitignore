@@ -1,0 +1,19 @@
+# Dependencies / build outputs
+node_modules/
+.next/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+.vercel/
+*.pem
+
+# OS/editor
+.DS_Store
+.vscode/
+.cursor/
